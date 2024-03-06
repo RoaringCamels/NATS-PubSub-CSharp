@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dcFelqjWETA0hu1Uq9bmuhZ0AYPmKkg5XZNLtOwpO43e6CY8bvTxaQYCfGg9c6hscXSdIFjBrvlNuUb4jMfHHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ivan\\Desktop\\NATS\\subApp\\subApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivan\\.nuget\\packages\\nats.client\\1.1.3\\nats.client.1.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

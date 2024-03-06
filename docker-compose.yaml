@@ -1,0 +1,18 @@
+version: '3'
+services:
+  nats-server:
+    image: 'nats:latest'
+    ports:
+      - '4222:4222'
+
+  publisher:
+    build:
+      context: /pubApp
+    depends_on:
+      - nats-server
+
+  subscriber:
+    build:
+      context: /subApp
+    depends_on:
+      - nats-server
